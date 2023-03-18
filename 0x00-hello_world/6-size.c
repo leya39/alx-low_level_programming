@@ -4,7 +4,6 @@
  *  main - Entry point
  *
  *  Return: Always 0 (Success)
- *
  */
 int main(void)
 {
@@ -14,7 +13,7 @@ int main(void)
 	char d;
 	float f;
 
-	printf("Success of a char: %lu byte(s)\n" (unsinged long)sizepf(df));
+	printf("Success of a char: %lu byte(s)\n" (unsinged long)sizepf(d));
 	printf("Success of an int: %lu byte(s)\n" (unsinged long)sizeof(a));
 	printf("Success of a long int: %lu byte(s)\n" (unsinged long)sizeof(b));
 	printf("Success of a long long: %lu byte(s)\n" (unsinged long)long(c));
