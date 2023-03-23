@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+/**
+ * main - print alphabet revers
+ *
+ * Return: Always 0
+ */
+int(void)
+{
+	char letter;
+
+	for (letter = 'z'; letter >= 'a'; letter--)
+		putchar(letter);
+
+	putchar('\n');
+
+	return (0);
+}
